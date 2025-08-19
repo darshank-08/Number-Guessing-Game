@@ -1,6 +1,6 @@
 
-// let target = Math.floor(Math.random() * 10 + 1);
-let target = 6
+let target = Math.floor(Math.random() * 10 + 1);
+// let target = 6
 let attempts = 0;
 let remaingAttempts = 5;
 

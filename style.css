@@ -96,6 +96,10 @@ a {
 }
 
 @media (min-width:321px) and (max-width: 450px){
+
+    .page{
+        height: 500px;
+    }
    .title{
         font-size: 2rem;
    } 

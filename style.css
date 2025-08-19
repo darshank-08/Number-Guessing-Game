@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Outfit;
+}
+
+body {
+    background: #dadada;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* base */
+.page{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.title-area{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+
+.title-container{
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.title{
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.sub-title{
+    font-size: 0.8rem;
+}
+
+.input-container{
+    display: flex;
+}
+
+.input{
+    margin-right: 10px;
+    height: 30px;
+    width: 350px;
+}
+
+.enter-btn{
+    padding: 7px;
+    border: none;
+    width: 70px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+    color: black;
+    margin-right: 8px;
+}
+
+.enter-btn:hover{
+    transform: scale(1.05);
+    cursor: pointer;
+}
+.cnt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:200px) and (max-width: 320px){
+   .title{
+        font-size: 1.5rem;
+   } 
+
+   .input-container{
+     flex-direction: column;
+     gap: 20px;
+   }
+
+   .input{
+        height: 25px;
+        width: 220px;
+   }
+}
+
+@media (min-width:321px) and (max-width: 450px){
+   .title{
+        font-size: 2rem;
+   } 
+
+    .input-container{
+     flex-direction: column;
+     gap: 20px;
+   }
+
+    .input{
+        height: 25px;
+        width: 260px;
+   }
+
+}
+
+
+@media (min-width:451px) and (max-width: 650px){
+   .title{
+        font-size: 2.7rem;
+   } 
+
+    .input-container{
+     flex-direction: column;
+     gap: 20px;
+   }
+
+    .input{
+        height: 25px;
+        width: 260px;
+   }
+
+}
+
